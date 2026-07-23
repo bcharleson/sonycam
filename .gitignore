@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.DS_Store
+*.mp4
+*.MOV
+*.MXF
+.python-version
+.pytest_cache/
+.mypy_cache/
+/tmp/
+*.log

@@ -1,0 +1,21 @@
+---
+description: sonycam project conventions — agent-native Sony Alpha camera CLI
+alwaysApply: true
+---
+
+# sonycam
+
+This repo is **sonycam**: a Python CLI for Sony Alpha cameras over USB PC Remote (Alpha Camera REST API / CameraWebApp).
+
+## Skills (read when relevant)
+
+- Camera ops / REC / pull / liveview: [.cursor/skills/sonycam/SKILL.md](../skills/sonycam/SKILL.md)
+- Changing code / build / OSS hygiene: [.cursor/skills/sonycam-dev/SKILL.md](../skills/sonycam-dev/SKILL.md)
+
+## Defaults
+
+- Install with `make install` (venv + editable)
+- Master footage = in-camera REC + `pull`, never liveview JPEGs
+- Prefer `127.0.0.1:8080` over `localhost`
+- No camera serials or personal absolute paths in committed docs
+- Update CLI help + README + skills when UX changes
